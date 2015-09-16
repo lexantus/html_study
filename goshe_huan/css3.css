@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	background: url('http://subtlepatterns.com/patterns/dark_embroidery.png');
+}
+
+#mainbox {
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	border: 1px solid #999;
+	background: #ff9;
+	border-radius: 10px;
+	box-shadow: #440 5px 5px 0px;
+	background: -webkit-linear-gradient(30deg, transparent 0%, #666 50%);
+	outline: 2px dashed #000;
+	outline-offset: 15px;
+}
+
+#title {
+	font: bold 36px WolfFont, verdana, sans-serif;
+	text-shadow: #f00 0px 0px 50px;
+}
+
+@font-face {
+	font-family: 'WolfFont';
+	src: url('fonts/BlackWolf.ttf');
+}
