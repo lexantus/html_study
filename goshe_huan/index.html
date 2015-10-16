@@ -1,52 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Simple html</title>
-	<meta name="description" content="Study experiments"/>
-	<meta name="author" content="Alexey Rozhin"/>
-	<meta name="keywords" content="css, html, html5, study, learn"/>
-	<meta charset="utf-8"/>
-	<link rel="style" href="style.css">
+	<title>Forms</title>
+	<meta charset="utf-8">
 </head>
 <body>
-	<header><h1>Simple blog</h1></header>
-	<nav>
-		<ul>
-			<li>Thought</li>
-			<li>Cites</li>
-			<li>Posts</li>
-		</ul>
-	</nav>
-	<section>
-		<article>
-			<figure>
-				<img src="http://cs614923.vk.me/v614923686/2264e/eAjODDtSqlE.jpg" height="200">
-				<figcaption>Alex rozhin <strong>developer</strong></figcaption>
-			</figure>
-			<mark dir="rtl">Lorem ipsum</mark> dolor sit amet, consectetur adipisicing elit. Dicta, temporibus delectus nisi <mark>sapiente</mark> quaerat quod asperiores error, ab quisquam ducimus, nostrum quis cum vel nemo quia, animi sit sed <em>inventore</em>!
-			<a href="http://cs614923.vk.me/v614923686/2264e/eAjODDtSqlE.jpg" download>download</a>
-			<cite>Steven King</cite>
-			<details>
-				<summary>Something intersting text!</summary>
-				<ul>
-					<li>asdfasd</li>
-					<li>ghynjuyjyu</li>
-					<li>eqrwqrqwer</li>
-				</ul>
-			</details>
-		</article>
-		<article>
-			Lorem ipsum <em>dolor</em> sit amet, consectetur adipisicing elit. Nisi ea, laboriosam harum. Reiciendis quasi consequuntur accusantium adipisci facere ipsam est eligendi, itaque iusto alias earum quia, voluptatum ab autem nemo!
-			Это текст статьи<br>
-			Отправляйтесь по адресу www.google.com/dsalasdfasdfasdfasdfasdfdasffj/content/do.jpg
-		</article>
-	</section>
-	<aside>
-		<blockquote>Cite1</blockquote>
-		<blockquote>Cite2</blockquote>
-	</aside>
-	<footer>
-		<small>Copyright &copy; 2015-20..</small>
-	</footer>
+	<form name="myform" method="get" action="file.php">
+		<br><label for="myname">Text: </label>
+		<input type="text" name="myname" id="myname">
+		<br><label for="myopt">Radio buttons: </label>
+		<input type="radio" name="myopt" value="1" checked> 1
+		<input type="radio" name="myopt" value="2"> 2
+		<input type="radio" name="myopt" value="3"> 3
+	</form>
 </body>
 </html>
