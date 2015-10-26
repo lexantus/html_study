@@ -1,5 +1,6 @@
 body {
 	font-family: "OpenSans", Arial;
+<<<<<<< HEAD
 	font-size: 14px;
 	text-align:center;
 	margin: 0;
@@ -106,6 +107,8 @@ footer, header {
     background: #05192c;
     color: #fff;
     line-height: 45px;
+=======
+>>>>>>> d89da449df94eb36e980fc0ab2836e6d48af616a
 }
 
 @font-face {
